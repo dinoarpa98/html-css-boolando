@@ -7,16 +7,20 @@
 }
 
  .container{
-
-
+ margin:20px 40px;
+ padding: 20px;
+ line-height: 30px;
+ vertical-align:middle ;
 }
+
+ .topimgs img{
+     height: 400px;
+ }
 
  .topimgs{
     display: inline-block;
     position: relative;
     padding: 5px;
-    left: 400px;
-    top: 30px;
 }
 
  .hearts{
@@ -27,5 +31,29 @@
     right: 5px;
 }
 
+.discount {
+    background-color: red;
+    font-size: 10px;
+    padding: 0px 2px;
+    position: absolute;
+    right: 90%;
+    top: 80%;
+
+}
+
+.greeneco{
+    background-color: green;
+    font-size: 10px;
+    padding: 0px 2px;
+    position: absolute;
+    right: 70%;
+    top: 80%;
+}
+
+/* fontcolors */
+
+.fwhite{
+    color: white;
+}
 
 
